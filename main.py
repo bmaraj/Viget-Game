@@ -15,7 +15,7 @@ print("\nPerfect. Thanks", name, "\nIt is really nice to meet you!")
 
 if age >= 18:
 
-    game_start = input("\nAre you ready to play? (yes/no) ").lower()
+    game_start = input("\nPlease type out all answers exactly as written in the parentheses ( ).\n\nAre you ready to play? (yes/no) ").lower()
     if game_start == "yes":
         print(line_space)
         print("\nWonderful.\n\nYou are a lost 'Vigeter' and need to get back to your office.\n\nThis is a choose your own adventure game with many different endings.\nI hope you can explore all of them. Best of luck!")
